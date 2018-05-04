@@ -131,3 +131,30 @@ data 		  |Object   |返回内容
 }
 ```
 
+### 3 发送问卷模板消息 POST  /surveyWechat/sendSurveyTemplateMsg
+#### 请求参数
+参数            |必选     |类型     |说明
+---             |---      |---      |---
+wxConfigId      |true     |String       |微信wxConfigId
+touserOpenid    |true     |String       |发送给的客户微信openid
+surveyPlanId    |true     |int          |问卷调查计划id
+
+
+#### 响应参数类型说明
+参数            |类型     |说明
+---           |---      |---   
+code    	  |int      |相应状态码（0表示成功）
+msg  		  |String   |错误信息
+times 		  |int      |时间戳
+data 		  |Object   |返回内容
+
+#### 响应数据
+
+```json
+{
+	"code": 0,
+	"msg": "",
+	"times": 1525404202761,
+	"data": ""
+}
+```
