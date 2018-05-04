@@ -53,7 +53,7 @@ questions     |Array    |问题集合
 	"data": {
 		"templateId": 1,
 		"templateName": "消费观调查问卷",
-		"questionCount": 2,
+		"questionCount": 3,
 		"firstLanguage": "您好，我们是XXX，我们正在进行一项关于消费观的调查，想邀请您用几分钟时间帮忙填答这份问卷。本问卷实行匿名制，所有数据只用于统计分析， 请您放心填写。题目选项无对错之分，请您按自己的实际情况填写。谢谢您的帮助。",
 		"questions": [{
 			"questionId": 1,
@@ -85,7 +85,18 @@ questions     |Array    |问题集合
 				"optionName": "娱乐",
 				"sort": 3
 			}]
-		}]
+		},
+		{
+			"questionId": 3,
+			"questionTitle": "对本次问卷有什么建议吗？",
+			"questionType": 3,
+			"options": [{
+				"optionId": 6,
+				"optionName": "",
+				"sort": 1
+			}]
+		}
+		]
 	}
 }
 ```
