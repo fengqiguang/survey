@@ -136,8 +136,8 @@ data 		  |Object   |返回内容
 参数            |必选     |类型     |说明
 ---             |---      |---      |---
 wxConfigId      |true     |String       |微信wxConfigId
-touserOpenid    |true     |String       |发送给的客户微信openid
-surveyPlanId    |true     |int          |问卷调查计划id
+touserOpenid    |true     |String       |发送给的客户微信
+sendInfoId      |true     |int          |问卷调查发送id
 
 
 #### 响应参数类型说明
