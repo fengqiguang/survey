@@ -16,7 +16,7 @@
 
 
 
-### 1 获取问卷接口 POST  /survey/getSurveyTemplate
+### 1 获取问卷接口 POST  /survey/getTemplateById
 #### 请求参数
 参数            |必选     |类型     |说明
 ---             |---      |---      |---
