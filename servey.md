@@ -119,7 +119,7 @@ questions     |Array    |问题集合
 #### 请求参数
 参数            |必选     |类型     |说明
 ---             |---      |---      |---
-openid      	|true     |String       |问卷模板id
+openid      	|true     |String       |用户openid，从入口进来，参数名openid
 sendInfoId      |true     |int          |发送问卷id （从前端页面入口url参数获取，参数名为sendInfoId）
 answerJson      |true     |String       |答案json,格式：[{questionId:1,optionId:1,answerText:"xxxx"},{questionId:2,optionId:2,answerText:""}]，说明：questionId表示问题id，必填,optionId表示选项id,answerText为问答题填写的内容，多选的题目，有多个数据项。
 
