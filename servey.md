@@ -33,7 +33,7 @@
 #### 请求参数
 参数            |必选     |类型     |说明
 ---             |---      |---      |---
-sendInfoId		|false    |int      |发送问卷id （从前端页面入口url参数获取，参数名为sendInfoId）
+sendInfoId		|true    |int      |发送问卷id （从前端页面入口url参数获取，参数名为sendInfoId）
 
 #### 响应参数类型说明
 参数            |类型     |说明
