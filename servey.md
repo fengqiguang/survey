@@ -33,8 +33,8 @@
 #### 请求参数
 参数            |必选     |类型     |说明
 ---             |---      |---      |---
-templateId      |true     |id       |问卷模板id
-
+templateId      |true     |int      |问卷模板id
+sendInfoId		|false    |int      |发送问卷id （从前端页面入口url参数获取，参数名为sendInfoId）
 
 #### 响应参数类型说明
 参数            |类型     |说明
@@ -45,7 +45,7 @@ times 		  |int      |时间戳
 data 		  |Object   |返回内容
 templateId    |int      |问卷模板id
 templateName  |String   |问卷标题
-questionCount |int      |问卷答题个数
+hadAnswer 	  |int      |是否已答（0未答，1已答）
 firstLanguage |String   |问卷首语
 lastLanguage  |String   |问卷尾语
 questions     |Array    |问题集合
@@ -66,7 +66,7 @@ questions     |Array    |问题集合
 	"data": {
 		"templateId": 1,
 		"templateName": "消费观调查问卷",
-		"questionCount": 3,
+		"hadAnswer": 0,
 		"firstLanguage": "您好，我们是XXX，我们正在进行一项关于消费观的调查，想邀请您用几分钟时间帮忙填答这份问卷。本问卷实行匿名制，所有数据只用于统计分析， 请您放心填写。题目选项无对错之分，请您按自己的实际情况填写。谢谢您的帮助。",
 		"questions": [{
 			"questionId": 1,
