@@ -33,7 +33,6 @@
 #### 请求参数
 参数            |必选     |类型     |说明
 ---             |---      |---      |---
-templateId      |true     |int      |问卷模板id
 sendInfoId		|false    |int      |发送问卷id （从前端页面入口url参数获取，参数名为sendInfoId）
 
 #### 响应参数类型说明
