@@ -170,18 +170,3 @@ data 		  |Object   |返回内容
 	"data": ""
 }
 ```
-
-### 6 取消续茶接口   POST  /wx/cancelContinueTea
-#### 请求参数
-参数            |必选     |类型     |说明
----             |---      |---      |---
-orderId         |true     |string   |订单id
-orderGoodsDetailId  |true     |int   |订单商品明细id
-
-#### 响应参数类型说明
-参数            |类型     |说明
----             |---      |---
-                |         |  
-
-#### 响应数据
-成功或者失败
