@@ -13,11 +13,10 @@ sellId          |fasle    |int      |置业顾问id（当前客户有归属顾�
 wxconfigid      |true     |string   |微信wxconfigid
 businessId      |fasle    |int      |业务id（）
 
-
 #### 响应参数类型说明
 参数            |类型     |说明
----             |---      |---
-                |         |   
+---             |---      |---
+              | 无      |  无
 
 #### 响应数据
 成功或者失败

@@ -89,24 +89,15 @@ sendInfoId      |true     |int          |发送问卷id （从前端页面入口
 answerJson      |true     |String       |答案json,格式：[{questionId:1,optionId:1,answerText:"xxxx"},{questionId:2,optionId:2,answerText:""}]，说明：questionId表示问题id，必填,optionId表示选项id,answerText为问答题填写的内容，多选的题目，有多个数据项。
 
 
+
 #### 响应参数类型说明
 参数            |类型     |说明
----           |---      |---   
-code    	  |int      |相应状态码（0表示成功）
-msg  		  |String   |错误信息
-times 		  |int      |时间戳
-data 		  |Object   |返回内容
+---             |---      |---
+|无              | 无      |  无
 
 #### 响应数据
+成功或者失败
 
-```json
-{
-	"code": 0,
-	"msg": "",
-	"times": 1525404202761,
-	"data": ""
-}
-```
 
 ### 3 发送问卷模板消息 POST  /surveyWechat/sendSurveyTemplateMsg
 #### 请求参数
@@ -117,21 +108,11 @@ touserOpenid    |true     |String       |发送给的客户微信
 sendInfoId      |true     |int          |问卷调查发送id
 
 
+
 #### 响应参数类型说明
 参数            |类型     |说明
----           |---      |---   
-code    	  |int      |相应状态码（0表示成功）
-msg  		  |String   |错误信息
-times 		  |int      |时间戳
-data 		  |Object   |返回内容
+---             |---      |---
+|无              | 无      |  无
 
 #### 响应数据
-
-```json
-{
-	"code": 0,
-	"msg": "",
-	"times": 1525404202761,
-	"data": ""
-}
-```
+成功或者失败
