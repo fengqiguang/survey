@@ -1,32 +1,6 @@
 # 问卷调查接口说明
 测试域名：  http://127.0.0.1:8080/poly-survey-web/
 
-## 项目工程统一返回参数模板
-	
-	本项目统一返回格式含code（相应状态码0表示成功,其他参考错误码对应列表文档）、msg（错误信息）、times（时间戳）、data（返回内容）
-
-	例如：
-
-	{
-	"code": 0,
-	"msg": "",
-	"times": 1525404202761,
-	"data": "{memberName:'zhangsan',openid}"
-	}
-
-## 项目工程统一状态码描述
-状态码code     |描述msg    
----            |---         
-0    	  	  |空值，请求成功      
-1  		      |非法请求   
-2    	  	  |转换参数失败      
-101  		  |操作失败
-102    	  	  |业务请求参数错误      
-103  		  |业务请求参数部分为空
-104  		  |问卷已提交
-1000  		  |系统错误
-
-
 ## 项目工程接口列表
 
 ### 1 获取问卷接口 POST  /survey/getTemplateById
@@ -38,10 +12,6 @@ sendInfoId		|true    |int      |发送问卷id （从前端页面入口url参数
 #### 响应参数类型说明
 参数            |类型     |说明
 ---           |---      |---   
-code    	  |int      |相应状态码（0表示成功）
-msg  		  |String   |错误信息
-times 		  |int      |时间戳
-data 		  |Object   |返回内容
 templateId    |int      |问卷模板id
 templateName  |String   |问卷标题
 hadAnswer 	  |int      |是否已答（0未答，1已答）
@@ -58,10 +28,6 @@ questions     |Array    |问题集合
 
 #### 响应数据
 ```json
-{
-	"code": 0,
-	"msg": "",
-	"times": 1525404202761,
 	"data": {
 		"templateId": 1,
 		"templateName": "消费观调查问卷",
@@ -109,7 +75,6 @@ questions     |Array    |问题集合
 			}]
 		}
 		]
-	}
 }
 ```
 

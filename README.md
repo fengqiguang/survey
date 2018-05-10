@@ -1,6 +1,6 @@
-# servey
+# survey
 
-servey服务端代码
+survey服务端代码
 
 ## 项目工程初始化构建
 	
@@ -9,6 +9,13 @@ servey服务端代码
 	工程构建步骤
 
 		1、通过smartgit执行git clone命令，将项目拉取到本地.
+			git clone https://github.com/fengqiguang/survey.git
+
+		2、通过eclipse导入工程survey即可
+
+	项目说明
+
+		1、项目统一说明在common.md文档
 
 
 
