@@ -28,7 +28,7 @@ questions     |Array    |问题集合
 
 #### 响应数据
 ```json
-	"data": {
+	"result": {
 		"templateId": 1,
 		"templateName": "消费观调查问卷",
 		"hadAnswer": 0,

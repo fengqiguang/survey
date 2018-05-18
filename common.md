@@ -3,15 +3,14 @@
 
 ## 项目工程统一返回参数模板
 	
-	本项目统一返回格式含code（相应状态码0表示成功,其他参考错误码对应列表文档）、msg（错误信息）、times（时间戳）、data（返回内容）
+	本项目统一返回格式含code（相应状态码"0000"表示成功,其他参考错误码对应列表文档）、retMsg（错误信息）、times（时间戳）、data（返回内容）
 
 	例如：
 
 	{
-	"code": 0,
-	"msg": "",
-	"times": 1525404202761,
-	"data": "{memberName:'zhangsan',openid:'1564564'}"
+	"retCode": "0000",
+	"retMsg": "",
+	"result": "{memberName:'zhangsan',openid:'1564564'}"
 	}
 
 ## 项目工程统一状态码描述
